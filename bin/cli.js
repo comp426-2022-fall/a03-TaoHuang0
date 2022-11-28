@@ -3,7 +3,7 @@
 import { roll } from "../lib/roll.js"
 import minimist from "minimist"
 
-const args = minimist(process.argv.slice(2));
+const args = minimist(process.argv.slice(2))
 
 const roll_res = roll(args.sides || 6, args.dice || 2, args.rolls || 1);
 
